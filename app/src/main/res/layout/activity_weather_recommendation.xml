@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Weather Crop Recommendations"
+        android:textColor="#1DB823"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/spinnerLocation"
+        android:layout_width="match_parent"
+        android:textColor="@color/cardColor"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to fetch weather -->
+    <Button
+        android:id="@+id/tvWeatherbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="12dp"
+        android:text="Fetch Weather"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Weather information display -->
+    <TextView
+        android:id="@+id/tvWeatherInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Weather Info will appear here"
+        android:textColor="@color/cardColor"
+        android:textSize="16sp" />
+
+    <!-- Crop recommendations display -->
+    <TextView
+        android:id="@+id/tvCropRecommendations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crop Recommendations will appear here"
+        android:textColor="@color/cardColor"
+        android:textSize="16sp" />
+</LinearLayout>

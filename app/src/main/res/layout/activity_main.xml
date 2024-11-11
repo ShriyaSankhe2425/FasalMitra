@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Crop Disease Management"
+        android:textColor="@color/customGreen"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Disease Detection Button -->
+    <Button
+        android:id="@+id/btnDiseaseDetection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#27769A"
+        android:padding="16dp"
+        android:text="Disease Detection"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!-- Weather and Crop Recommendation Button -->
+    <Button
+        android:id="@+id/btnWeatherRecommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#27769A"
+        android:padding="16dp"
+        android:text="Weather Crop Recommendations"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!-- Yield Prediction Button -->
+    <Button
+        android:id="@+id/btnYieldPrediction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#27769A"
+        android:padding="16dp"
+        android:text="Yield Prediction"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

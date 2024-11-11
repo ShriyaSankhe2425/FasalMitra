@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Fasalmitra</string>
+    <string-array name="growth_stage_options">
+        <item>Seedling</item>
+        <item>Early Growth</item>
+        <item>Mid Growth</item>
+        <item>Mature</item>
+        <item>Harvest</item>
+    </string-array>
+
+    <!-- Options for Soil Quality -->
+    <string-array name="soil_quality_options">
+        <item>Poor</item>
+        <item>Moderate</item>
+        <item>Fertile</item>
+        <item>Highly Fertile</item>
+    </string-array>
+
+    <!-- Options for Water Level -->
+    <string-array name="water_level_options">
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+
+</resources>

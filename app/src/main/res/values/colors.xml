@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- colors.xml -->
+    <!-- Background Color for Home Screen -->
+    <color name="backgroundColor">#FF000000</color> <!-- Light grey -->
+
+    <!-- Card Background Color -->
+    <color name="cardColor">#FFFFFF</color> <!-- White, or change to a subtle tone -->
+
+    <!-- Primary Text Color (for titles, headers) -->
+    <color name="colorPrimaryDark">#1A237E</color> <!-- Deep Indigo -->
+
+    <!-- Primary Color (for icons and other text) -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Indigo -->
+
+    <!-- Secondary Text Color -->
+    <color name="secondaryTextColor">#757575</color> <!-- Medium Grey -->
+
+    <!-- Accent Color for Buttons or Highlights -->
+    <color name="accentColor">#FF4081</color> <!-- Pink accent -->
+
+    <!-- Example Custom Colors -->
+    <color name="customGreen">#4CAF50</color> <!-- Green for success messages -->
+    <color name="customRed">#F44336</color> <!-- Red for error messages -->
+
+</resources>
